@@ -1,3 +1,4 @@
+import { APP_NAME } from "@/constants";
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 
@@ -29,7 +30,9 @@ export const Header = () => {
 					<div className="flex items-center justify-between py-6">
 						<Link to="/" className="flex items-center gap-3">
 							<div className="w-10 h-10 bg-white backdrop-blur-sm rounded-2xl border border-white/30" />
-							<span className="text-white text-xl font-semibold">Breathe</span>
+							<span className="text-white text-xl font-semibold">
+								{APP_NAME}
+							</span>
 						</Link>
 
 						{/* Desktop Navigation */}

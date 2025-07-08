@@ -27,10 +27,8 @@ export const AppStoreButton = () => {
 			<div className="flex items-center gap-4">
 				<AppleLogo />
 				<div className="flex flex-col items-start -space-y-1">
-					<span className="text-xs font-medium opacity-75">
-						Download on the
-					</span>
-					<span className="text-xl font-semibold line-clamp-1">App Store</span>
+					<span className="text-xs font-medium opacity-75">Download on</span>
+					<span className="text-xl font-semibold line-clamp-1">TestFlight</span>
 				</div>
 			</div>
 		</a>

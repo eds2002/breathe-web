@@ -10,10 +10,10 @@ export function Index() {
 				<div className="flex flex-col items-center justify-center gap-12">
 					<div className="flex flex-col items-center justify-center gap-4 px-6 max-w-3xl">
 						<h1 className="text-4xl lg:text-6xl font-semibold">
-							Guided breathing cards
+							Mindful Breathing
 						</h1>
 						<p className="text-xl lg:text-2xl font-medium opacity-80">
-							A variety of guided breathing cards to help you relax and
+							Collections of guided breathing cards to help you relax and
 							meditate.
 						</p>
 					</div>

@@ -1,3 +1,5 @@
+import { APP_NAME } from "@/constants";
+
 export function PrivacyPolicyScreen() {
 	return (
 		<main className="min-h-screen bg-black text-white">
@@ -5,7 +7,7 @@ export function PrivacyPolicyScreen() {
 				<header className="mb-12">
 					<h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
 					<p className="text-lg text-white/60">
-						Privacy Policy for <b className="text-white">Breathe</b>
+						Privacy Policy for <b className="text-white">{APP_NAME}</b>
 					</p>
 					<p className="text-sm text-white/60 mt-2">
 						Effective Date: <b className="text-white">July 7, 2025</b>
