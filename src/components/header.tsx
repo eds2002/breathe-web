@@ -27,7 +27,7 @@ export const Header = () => {
 			<div className="absolute top-0 left-0 w-full z-10">
 				<div className="max-w-7xl mx-auto px-6">
 					<div className="flex items-center justify-between py-6">
-						<Link to="/breathe-web" className="flex items-center gap-3">
+						<Link to="/" className="flex items-center gap-3">
 							<div className="w-10 h-10 bg-white backdrop-blur-sm rounded-2xl border border-white/30" />
 							<span className="text-white text-xl font-semibold">Breathe</span>
 						</Link>
