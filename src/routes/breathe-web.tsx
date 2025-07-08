@@ -11,7 +11,7 @@ export const Route = createFileRoute("/breathe-web")({
 						"A variety of guided breathing cards to help you relax and meditate.",
 				},
 			],
-		}
+		};
 	},
 	component: Index,
 });
