@@ -1,3 +1,5 @@
+import { TESTFLIGHT_URL } from "@/constants";
+
 const AppleLogo = () => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +20,7 @@ const AppleLogo = () => (
 export const AppStoreButton = () => {
 	return (
 		<a
-			href="https://apps.apple.com/app/id6749496448"
+			href={TESTFLIGHT_URL}
 			type="button"
 			className="bg-white text-black px-4 py-2 rounded-2xl flex flex-col items-center
       shadow-lg shadow-black/10 hover:shadow-black/20 transition-all duration-300 shadow-radius-lg
